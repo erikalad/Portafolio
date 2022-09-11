@@ -1,6 +1,7 @@
 import React from 'react'
 import logo from './../asses/logo.jpg'
 import './NavBar.css'
+import cv from './../asses/CV Erika Ladner.pdf'
 
 function Navbar () {
     return (
@@ -32,7 +33,7 @@ function Navbar () {
                         <a href="#proyectos" aria-current="page" className='nav-link active' >PROYECTOS</a>
                         </li>
                         </ul>
-                        <button type="button" className="btn btn-light" id="boton1">DESCARGAR CURRÍCULUM</button>
+                        <a href={cv} download={cv} id="boton1" className="btn btn-light">DESCARGAR CURRÍCULUM</a>
                         <button type="button" className="btn btn-light" id="boton2">CONTACTAME</button>
                      </div>
                     </div>
