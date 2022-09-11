@@ -17,7 +17,7 @@ function Navbar () {
                             <button type="button" className="btn-close" data-bs-dismiss="offcanvas" aria-label="Close" style={{backgroundColor:'white'}}></button>
                     </div>
                     <div className="offcanvas-body">
-                        <ul className="navbar-nav justify-content-end flex-grow-1 pe-3" style={{marginTop: "7px"}}>
+                        <ul className="navbar-nav justify-content-end flex-grow-1 pe-3 navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style={{marginTop: "7px"}}>
                         <li className="nav-item">
                         <a href="#Inicio" aria-current="page" className='nav-link active' >INICIO</a>
                         </li>

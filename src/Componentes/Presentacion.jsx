@@ -4,6 +4,7 @@ import { BsLinkedin , BsGithub } from 'react-icons/bs';
 import { IoRocketSharp } from 'react-icons/io5';
 import SobreMi from "./SobreMi";
 import foto from './../asses/Erika.PNG'
+import Skills from "./Skills";
 
 function Presentacion () {
     return(
@@ -19,6 +20,7 @@ function Presentacion () {
             </div>
             </div>
             <SobreMi />
+            <Skills />
         </div>
     )
 }
