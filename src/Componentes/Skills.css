@@ -1,0 +1,36 @@
+#skills{
+    margin-top: 200px;
+   
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.iconos{
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+}
+
+.iconos:hover{
+   transform: scale(1.20);
+}
+
+.ico{
+    font-size: 50px;
+}
+
+#js{
+    color:rgb(239, 239, 3);
+}
+
+.aprendiendo{
+    margin:40px;
+    margin-top:70px;
+    font-size: 30px;
+}
