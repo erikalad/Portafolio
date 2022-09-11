@@ -6,11 +6,9 @@ import cv from './../asses/CV Erika Ladner.pdf'
 function Navbar () {
     return (
         <div className='nav navbar navbar-expand-lg bg-dark sticky-top bg-ligth fixed-top' id="nav">
-            <img src={logo} alt="logo" id="img"/>
-            <nav className="navbar bg-dark fixed-top">
                 <div className="container-fluid">
                     <img src={logo} alt="logo" id="img" className="navbar-brand"/>
-                    <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" style={{backgroundColor:'white'}}>
                     <span className="navbar-toggler-icon"></span>
                     </button>
                     <div className="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel" style={{backgroundColor:'black'}}>
@@ -34,11 +32,10 @@ function Navbar () {
                         </li>
                         </ul>
                         <a href={cv} download={cv} id="boton1" className="btn btn-light">DESCARGAR CURRÍCULUM</a>
-                        <button type="button" className="btn btn-light" id="boton2">CONTACTAME</button>
+                        <a href="https://wa.me/qr/Q2YIOQL7UXOPH1" id="boton2" className="btn btn-light">CONTACTAME</a>
                      </div>
                     </div>
                 </div>
-            </nav>
         </div>
     )
 }
