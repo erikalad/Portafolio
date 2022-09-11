@@ -1,0 +1,71 @@
+.cuerpo{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding:100px;
+    align-items: center;
+    background-color: #f9f9f3;
+    border-radius: 16px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,.2);
+    position: relative;
+    z-index: 10;
+    margin-top:60px;
+    box-sizing: border-box
+}
+
+.titulo{
+    font-family:Impact, fantasy;
+    font-weight: 900;
+    letter-spacing: 2px;
+    color:rgb(254, 241, 0);
+    -webkit-text-stroke: 0.2px rgb(99, 99, 99);
+    
+}
+
+.botones{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.boton{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 25px;
+    background-color:  #e0e0e0;
+    box-shadow: 5px 5px 11px #aaaaaa, -5px -5px 11px #ffffff;
+    color: black;
+    border-radius: 100px;
+    border: 2px solid white;
+    margin: 4px;
+    cursor: pointer;
+    user-select: none;
+    margin-left: 20px;
+}
+
+.boton:hover{
+    transform: scale(1.10);
+    z-index: 1;
+}
+
+
+.foto{
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: -77px;
+    width: 160px;
+    padding: 5px;
+    box-shadow: 5px 5px 11px #aaaaaa;
+}
+
+.foto:hover{
+    transform: scale(1.10);
+    z-index: 1;
+}

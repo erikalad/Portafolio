@@ -1,0 +1,72 @@
+#nav{
+    /*display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;*/
+    box-shadow: 3px 3px 15px rgb(101, 100, 100) !important;
+    margin-bottom: 30px !important;
+}
+
+#img{
+    border-radius: 10px;
+    width: 75px;
+    height: 50%;
+    margin-left: 10px;
+    align-self: center;
+    box-shadow: 2px 2px 11px rgb(255, 255, 255);
+}
+
+.links{
+    display: flex;
+    align-content: center;
+    padding: 20px;
+}
+
+.nav-link{
+    margin-inline: 15px !important;
+    text-decoration: none !important;
+    color: white !important;
+    align-self: center ;
+}
+.nav-link:hover{
+    color: rgb(254, 241, 0) !important;
+}
+
+
+#boton2{
+    background-color: rgb(254, 241, 0);
+    margin-top:0;
+    margin-inline: 10px;
+    border-width: 1px;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    border-color: rgb(255, 255, 255);
+    box-shadow: 1px 2px 11px rgb(255, 255, 255);
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+#boton1{
+    margin-top:0;
+    margin-inline: 10px;
+    border-width: 1px;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    border-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 11px rgb(255, 255, 255);
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+
+
+#boton1:hover{
+    transform: scale(1.10);
+    z-index: 1;
+}
+
+#boton2:hover{
+    transform: scale(1.10);
+    z-index: 1;
+}
+
