@@ -34,3 +34,9 @@
     margin-top:70px;
     font-size: 30px;
 }
+
+@media (max-width: 985px) {
+    .contenedor{
+        display:inline !important;
+    }
+}

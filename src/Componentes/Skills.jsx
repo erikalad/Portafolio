@@ -1,7 +1,8 @@
 import React from "react";
 import './Skills.css'
-import { SiJavascript, SiCss3, SiHtml5, SiBootstrap, SiReact , SiRedux , SiGithub , SiNodedotjs , SiMysql , SiBookstack} from "react-icons/si";
+import { SiJavascript, SiCss3, SiHtml5, SiBootstrap,SiTailwindcss, SiSequelize ,SiPostman, SiExpress ,SiReact , SiRedux , SiPostgresql, SiGithub , SiNodedotjs , SiMysql , SiBookstack} from "react-icons/si";
 import { TbBrandReactNative } from "react-icons/tb";
+import { DiNpm } from "react-icons/di";
 function Skills () {
     return(
         <div className="skills" id="skills">
@@ -29,6 +30,11 @@ function Skills () {
             </div>
 
             <div className="iconos">
+            <h6 className="ico" style={{color:"#4964ff"}}><SiTailwindcss /></h6>
+            <h6>TAILWINDCSS</h6>
+            </div>
+
+            <div className="iconos">
             <h6 className="ico" style={{color:"#0083c9"}}><SiReact /></h6>
             <h6>REACT.JS</h6>
             </div>
@@ -48,6 +54,37 @@ function Skills () {
             <h6>NODE.JS</h6>
             </div>
 
+            <div className="iconos">
+            <h6 className="ico" style={{color:"#0c0cb89e"}}><SiPostgresql /></h6>
+            <h6>POSTGRESQL</h6>
+            </div>
+
+            <div className="iconos">
+            <h6 className="ico" style={{color:"#1010c4"}}><SiSequelize /></h6>
+            <h6>SEQUELIZE</h6>
+            </div>
+
+            <div className="iconos">
+            <h6 className="ico" style={{color:"#000000"}}><SiExpress /></h6>
+            <h6>EXPRESS</h6>
+            </div>
+
+            <div className="iconos">
+            <h6 className="ico" style={{color:"#ff9100"}}><SiPostman /></h6>
+            <h6>POSTMAN</h6>
+            </div>
+
+            <div className="iconos">
+            <h6 className="ico" style={{color:"#ff6a00"}}><SiMysql /></h6>
+            <h6>SQL</h6>
+            </div>
+
+            <div className="iconos">
+            <h6 className="ico" style={{color:"#ff0000"}}><DiNpm /></h6>
+            <h6>NPM</h6>
+            </div>
+
+
             </div>
             <div className="aprendiendo">
             <p>Y actualmente aprendiendo</p>
@@ -58,10 +95,7 @@ function Skills () {
             <h6>REACT NATIVE</h6>
             </div>
            
-            <div className="iconos">
-            <h6 className="ico" style={{color:"#ff6a00"}}><SiMysql /></h6>
-            <h6>SQL</h6>
-            </div>
+        
             </div>
         
             </div>
