@@ -5,6 +5,7 @@ import { IoRocketSharp } from 'react-icons/io5';
 import SobreMi from "./SobreMi";
 import foto from './../asses/Erika.PNG'
 import Skills from "./Skills";
+import Proyectos from "./Proyectos";
 
 function Presentacion () {
     return(
@@ -21,6 +22,7 @@ function Presentacion () {
             </div>
             <SobreMi />
             <Skills />
+            <Proyectos />
         </div>
     )
 }
