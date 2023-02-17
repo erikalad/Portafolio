@@ -6,7 +6,7 @@ function Footer(){
     return(
         <div className='footer'>
             <div className='datos'>
-                <p>Erika Ladner ©2022</p>
+                <p>Erika Ladner ©2023</p>
                 <a href="#Inicio" className='icono' ><BsFillArrowUpCircleFill /></a>
             </div>
         </div>

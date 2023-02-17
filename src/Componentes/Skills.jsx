@@ -1,6 +1,6 @@
 import React from "react";
 import './Skills.css'
-import { SiJavascript, SiCss3, SiHtml5, SiBootstrap,SiTailwindcss, SiSequelize ,SiPostman, SiExpress ,SiReact , SiRedux , SiPostgresql, SiGithub , SiNodedotjs , SiMysql , SiBookstack} from "react-icons/si";
+import { SiFigma ,SiAuth0, SiAntdesign ,SiJavascript, SiCss3, SiHtml5, SiBootstrap,SiTailwindcss, SiSequelize ,SiPostman, SiExpress ,SiReact , SiRedux , SiPostgresql, SiGithub , SiNodedotjs , SiMysql , SiBookstack} from "react-icons/si";
 import { TbBrandReactNative } from "react-icons/tb";
 import { DiNpm } from "react-icons/di";
 function Skills () {
@@ -84,6 +84,18 @@ function Skills () {
             <h6>NPM</h6>
             </div>
 
+            <div className="iconos">
+            <h6 className="ico" style={{color:"#2600ff"}}><SiAntdesign /></h6>
+            <h6>ANT DESIGN</h6>
+            </div>
+
+            <div className="iconos">
+            <h6 className="ico" style={{color:"#000000"}}><SiAuth0 /></h6>
+            <h6>AUTH0</h6>
+            </div>
+
+
+
 
             </div>
             <div className="aprendiendo">
@@ -93,6 +105,11 @@ function Skills () {
             <div className="iconos">
             <h6 className="ico" style={{color:"#0083c9"}}><TbBrandReactNative /></h6>
             <h6>REACT NATIVE</h6>
+            </div>
+        
+            <div className="iconos">
+            <h6 className="ico" style={{color:"#000305"}}><SiFigma /></h6>
+            <h6>FIGMA</h6>
             </div>
            
         
