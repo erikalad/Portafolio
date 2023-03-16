@@ -1,6 +1,6 @@
 import React from "react";
 import './Skills.css'
-import { SiFigma ,SiAuth0, SiAntdesign ,SiJavascript, SiCss3, SiHtml5, SiBootstrap,SiTailwindcss, SiSequelize ,SiPostman, SiExpress ,SiReact , SiRedux , SiPostgresql, SiGithub , SiNodedotjs , SiMysql , SiBookstack} from "react-icons/si";
+import { SiFigma ,SiAuth0, SiAntdesign ,SiJavascript, SiCss3, SiHtml5, SiAngular, SiBootstrap,SiTailwindcss, SiSequelize ,SiPostman, SiExpress ,SiReact , SiRedux , SiPostgresql, SiGithub , SiNodedotjs , SiMysql , SiBookstack} from "react-icons/si";
 import { TbBrandReactNative } from "react-icons/tb";
 import { DiNpm } from "react-icons/di";
 function Skills () {
@@ -94,6 +94,10 @@ function Skills () {
             <h6>AUTH0</h6>
             </div>
 
+            <div className="iconos">
+            <h6 className="ico" style={{color:"#c70000"}}><SiAngular /></h6>
+            <h6>ANGULAR.JS</h6>
+            </div>
 
 
 

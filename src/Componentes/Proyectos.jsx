@@ -4,6 +4,7 @@ import { MdOutlineWbIncandescent , MdOutlineOpenInNew } from "react-icons/md";
 import { BsLinkedin , BsGithub } from 'react-icons/bs';
 import img1 from './../asses/calculadora.jpg'
 import img2 from './../asses/andar.jpg'
+import img3 from './../asses/museo.jpg'
 
 function Proyectos () {
     return(
@@ -40,6 +41,23 @@ function Proyectos () {
                 <div className="botones">
                 <a href="https://github.com/erikalad/andarproductions" className="boton"><BsGithub /></a>
                 <a href="https://andarproductions.com.ar/" className="boton"><MdOutlineOpenInNew /></a>
+                
+                </div>
+					<p></p>
+				</div>
+			</div>
+		</div>
+
+		<div class="tarjeta-wrap">
+			<div class="tarjeta">
+				<div class="adelante card2">
+                <img src={img3} className="img-fluid rounded-start" alt="..." id="museo"/>
+                </div>
+				<div class="atras">
+                <a href="https://pf-museo-front-end-pf09henry.vercel.app/" style={{color:"white"}}><h5>Museo Patagónico de Ciencias Naturales</h5></a>
+                <div className="botones">
+                <a href="https://github.com/erikalad/Pf_Museo_FrontEnd" className="boton"><BsGithub /></a>
+                <a href="https://pf-museo-front-end-pf09henry.vercel.app/" className="boton"><MdOutlineOpenInNew /></a>
                 
                 </div>
 					<p></p>
