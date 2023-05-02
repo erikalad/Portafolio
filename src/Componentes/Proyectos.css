@@ -8,7 +8,7 @@
 
 #proyectos{
     margin-top: 200px;
-   
+  
 }
 
 #andar{
@@ -119,6 +119,16 @@
 .card3{
 	
 	background-size: cover;
+}
+
+.proyectos{
+	display: flex;
+	flex-wrap: wrap;
+	gap:2rem
+}
+
+.tag{
+	margin-bottom: 1rem
 }
 
 @media (max-width: 985px) {

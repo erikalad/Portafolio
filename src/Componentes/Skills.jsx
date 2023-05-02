@@ -1,6 +1,6 @@
 import React from "react";
 import './Skills.css'
-import { SiTypescript , SiMercadopago, SiPaypal, SiNextdotjs, SiFigma ,SiAuth0, SiAntdesign ,SiJavascript, SiCss3, SiHtml5, SiAngular, SiBootstrap,SiTailwindcss, SiSequelize ,SiPostman, SiExpress ,SiReact , SiRedux , SiPostgresql, SiGithub , SiNodedotjs , SiMysql , SiBookstack} from "react-icons/si";
+import { SiTypescript , SiGraphql ,SiMercadopago, SiPaypal, SiNextdotjs, SiFigma ,SiAuth0, SiAntdesign ,SiJavascript, SiCss3, SiHtml5, SiAngular, SiBootstrap,SiTailwindcss, SiSequelize ,SiPostman, SiExpress ,SiReact , SiRedux , SiPostgresql, SiGithub , SiNodedotjs , SiMysql , SiBookstack} from "react-icons/si";
 import { TbBrandReactNative } from "react-icons/tb";
 import { DiNpm } from "react-icons/di";
 function Skills () {
@@ -59,6 +59,11 @@ function Skills () {
             <div className="iconos">
             <h6 className="ico" style={{color:"#008104"}}><SiNodedotjs /></h6>
             <h6>NODE.JS</h6>
+            </div>
+
+            <div className="iconos">
+            <h6 className="ico" style={{color:"#ff2a9c"}}><SiGraphql /></h6>
+            <h6>GRAPHQL</h6>
             </div>
 
             <div className="iconos">
