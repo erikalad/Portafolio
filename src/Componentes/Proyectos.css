@@ -124,11 +124,28 @@
 .proyectos{
 	display: flex;
 	flex-wrap: wrap;
-	gap:2rem
+	gap:2rem;
+	justify-content: center;
+}
+
+.usergit{
+	margin-top: 150px;
+	/* height: 450px; */
+	padding-bottom:2rem ;
+}
+
+.usergit-meta{
+	height: 150px;
+	
 }
 
 .tag{
-	margin-bottom: 1rem
+	margin-bottom: 0.5rem;
+	
+}
+
+.ant-tag{
+	margin-inline-end: 0px;
 }
 
 @media (max-width: 985px) {
