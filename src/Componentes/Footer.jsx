@@ -7,7 +7,7 @@ function Footer(){
         <div className='footer'>
             <div className='datos'>
                 <p>Erika Ladner ©2023</p>
-                <a href="#Inicio" className='icono' ><BsFillArrowUpCircleFill /></a>
+               {/*  <a href="#Inicio" className='icono' ><BsFillArrowUpCircleFill /></a> */}
             </div>
         </div>
     )

@@ -34,8 +34,8 @@ function Navbar () {
                         <a href="#certificados" aria-current="page" className='nav-link active' >CERTIFICADOS</a>
                         </li>
                         </ul>
-                        <a href={cv} download={cv} id="boton1" className="btn btn-light">DESCARGAR CURRÍCULUM</a>
-                        <a href="https://wa.me/qr/Q2YIOQL7UXOPH1" id="boton2" className="btn btn-light">CONTACTAME</a>
+                      {/*   <a href={cv} download={cv} id="boton1" className="btn btn-light">DESCARGAR CURRÍCULUM</a>
+                        <a href="https://wa.me/qr/Q2YIOQL7UXOPH1" id="boton2" className="btn btn-light">CONTACTAME</a> */}
                      </div>
                     </div>
                 </div>
