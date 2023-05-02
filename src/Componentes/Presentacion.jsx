@@ -7,6 +7,7 @@ import foto from './../asses/Erika.PNG'
 import Skills from "./Skills";
 import Proyectos from "./Proyectos";
 import Certificados from "./Certificados";
+import git from './../asses/git.svg'
 
 function Presentacion () {
     return(
@@ -23,7 +24,10 @@ function Presentacion () {
             </div>
             <SobreMi />
             <Skills />
+            <img src={git} className="git"/>
             <Proyectos />
+          
+
             <Certificados />
         </div>
     )

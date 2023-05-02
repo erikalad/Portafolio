@@ -75,3 +75,8 @@
     margin-top: 70px;
 }
 
+@media (max-width: 985px) {
+    .git{
+        display: none;
+    }
+}
