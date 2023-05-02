@@ -11,10 +11,13 @@
     flex-wrap: wrap;
 }
 
+
+
 .iconos{
     display: flex;
     flex-direction: column;
     margin: 15px;
+   
 }
 
 .iconos:hover{

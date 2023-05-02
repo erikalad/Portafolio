@@ -1,6 +1,6 @@
 import React from "react";
 import './Skills.css'
-import { SiFigma ,SiAuth0, SiAntdesign ,SiJavascript, SiCss3, SiHtml5, SiAngular, SiBootstrap,SiTailwindcss, SiSequelize ,SiPostman, SiExpress ,SiReact , SiRedux , SiPostgresql, SiGithub , SiNodedotjs , SiMysql , SiBookstack} from "react-icons/si";
+import { SiTypescript , SiMercadopago, SiPaypal, SiNextdotjs, SiFigma ,SiAuth0, SiAntdesign ,SiJavascript, SiCss3, SiHtml5, SiAngular, SiBootstrap,SiTailwindcss, SiSequelize ,SiPostman, SiExpress ,SiReact , SiRedux , SiPostgresql, SiGithub , SiNodedotjs , SiMysql , SiBookstack} from "react-icons/si";
 import { TbBrandReactNative } from "react-icons/tb";
 import { DiNpm } from "react-icons/di";
 function Skills () {
@@ -11,7 +11,12 @@ function Skills () {
             <div className="contenedor container-fluid">
             <div className="iconos">
             <h6 className="ico" id="js"><SiJavascript /></h6>
-            <h6>JAVA SCRIPT</h6>
+            <h6>JAVASCRIPT</h6>
+            </div>
+
+            <div className="iconos">
+            <h6 className="ico" style={{color:"#00007b"}}><SiTypescript /></h6>
+            <h6>TYPESCRIPT</h6>
             </div>
 
             <div className="iconos">
@@ -24,15 +29,12 @@ function Skills () {
             <h6>HTML</h6>
             </div>
 
+           
             <div className="iconos">
-            <h6 className="ico" style={{color:"#8900c9"}}><SiBootstrap /></h6>
-            <h6>BOOTSTRAP</h6>
+            <h6 className="ico" style={{color:"#c70000"}}><SiAngular /></h6>
+            <h6>ANGULAR.JS</h6>
             </div>
 
-            <div className="iconos">
-            <h6 className="ico" style={{color:"#4964ff"}}><SiTailwindcss /></h6>
-            <h6>TAILWINDCSS</h6>
-            </div>
 
             <div className="iconos">
             <h6 className="ico" style={{color:"#0083c9"}}><SiReact /></h6>
@@ -42,6 +44,11 @@ function Skills () {
             <div className="iconos">
             <h6 className="ico" style={{color:"#760081"}}><SiRedux /></h6>
             <h6>REDUX</h6>
+            </div>
+
+            <div className="iconos">
+            <h6 className="ico" style={{color:"black"}}><SiNextdotjs /></h6>
+            <h6>NEXT.JS</h6>
             </div>
             
             <div className="iconos">
@@ -90,17 +97,31 @@ function Skills () {
             </div>
 
             <div className="iconos">
+            <h6 className="ico" style={{color:"#8900c9"}}><SiBootstrap /></h6>
+            <h6>BOOTSTRAP</h6>
+            </div>
+
+            <div className="iconos">
+            <h6 className="ico" style={{color:"#4964ff"}}><SiTailwindcss /></h6>
+            <h6>TAILWINDCSS</h6>
+            </div>
+
+            <div className="iconos">
             <h6 className="ico" style={{color:"#000000"}}><SiAuth0 /></h6>
             <h6>AUTH0</h6>
             </div>
 
+          {/*   <div className="iconos">
+            <h6 className="ico" style={{color:"#c0392b"}}><SiMercadopago/></h6>
+            <h6>MERCADOPAGO</h6>
+            </div> */}
+
             <div className="iconos">
-            <h6 className="ico" style={{color:"#c70000"}}><SiAngular /></h6>
-            <h6>ANGULAR.JS</h6>
+            <h6 className="ico" style={{color:"#3b7bbf"}}><SiPaypal /></h6>
+            <h6>PAYPAL</h6>
             </div>
 
-
-
+          
             </div>
             <div className="aprendiendo">
             <p>Y actualmente aprendiendo</p>
