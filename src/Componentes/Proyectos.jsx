@@ -14,6 +14,7 @@ import img8 from './../asses/datos.png'
 import img9 from './../asses/twits.png'
 import img10 from './../asses/graficos.png'
 import img11 from './../asses/informes.png'
+import img12 from './../asses/argentina.jpeg'
 import { Card, Tag } from 'antd';
 const { Meta } = Card;
 
@@ -145,7 +146,7 @@ function Proyectos () {
 					>
 						<Meta
 					
-						title="Accion Marplatense"
+						title="Campaña publicitaria Accion Marplatense"
 						description={<div><Tag  className="tag">JavaScript</Tag> <Tag >React.js</Tag>  <Tag  >Ant Design</Tag>  <Tag >CSS</Tag></div>}
 						/>
 					</Card>
@@ -164,6 +165,24 @@ function Proyectos () {
 						
 						title="Datos Descargables"
 						description={<div><Tag  className="tag">JavaScript</Tag> <Tag >React.js</Tag> <Tag  className="tag">Ant Design</Tag> <Tag >CSS</Tag> <Tag >Sweetalert2</Tag> <Tag >xlsx</Tag> </div>}
+						/>
+					</Card>
+
+					<Card
+						style={{
+							width: 200,
+						
+						}}
+						cover={<img alt="Campaña publicitaria Argentina tiene con que" src={img12} />}
+						actions={[
+						<a href="https://github.com/erikalad/argentinatieneconque"><SiGithub  /></a>,
+						<a href="https://argentinatieneconque.vercel.app/"><MdOutlineOpenInNew  /></a>,
+						]}
+					>
+						<Meta
+						
+						title="Campaña publicitaria Argentina tiene con que"
+						description={<div><Tag  className="tag">JavaScript</Tag> <Tag >React.js</Tag> <Tag  className="tag">AntDesign</Tag><Tag className="tag">CSS</Tag> </div>}
 						/>
 					</Card>
 
@@ -225,6 +244,8 @@ function Proyectos () {
 						</Tag> <Tag className="tag" >ApexChart</Tag> <Tag >Chart.js</Tag> <Tag className="tag" >D3</Tag> <Tag >html2pdf</Tag> <Tag >React-calendar</Tag></div>}
 						/>
 					</Card>
+
+					
 
 
 
