@@ -17,7 +17,7 @@ function App() {
     <FloatButton.Group shape="circle" style={{ right: 24 }}>
       <a href="https://wa.me/qr/Q2YIOQL7UXOPH1" style={{marginBottom:'1rem'}}><FloatButton style={{marginBottom:'1rem'}} icon={<BsWhatsapp />} /></a>
       <a href={cv} download={cv}><FloatButton style={{marginBottom:'1rem'}} icon={<BsFileEarmarkPdf />} /></a>
-      <a href="mailto:erikaladner5@gmail.com\_enlazado.com"><FloatButton style={{marginBottom:'1rem'}} icon={<GoMail />} /></a>
+      <a href="mailto:erikaladner5@gmail.com"><FloatButton style={{marginBottom:'1rem'}} icon={<GoMail />} /></a>
      
       <FloatButton.BackTop visibilityHeight={0} />
     </FloatButton.Group>
