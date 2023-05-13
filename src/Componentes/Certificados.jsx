@@ -17,6 +17,7 @@ import img15 from './../asses/15.png'
 import img16 from './../asses/16.png'
 import img17 from './../asses/17.png'
 import img18 from './../asses/18.png'
+import img19 from './../asses/19.png'
 import { GrCertificate } from 'react-icons/gr'
 import './Certificados.css'
 import Carousel from 'better-react-carousel'
@@ -85,6 +86,10 @@ export default function Certificados() {
         <Carousel.Item>
         <img width="100%" src={img18}  />
         </Carousel.Item>
+        <Carousel.Item>
+        <img width="100%" src={img19}  />
+        </Carousel.Item>
+       
        
       
 
