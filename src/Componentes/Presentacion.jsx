@@ -8,6 +8,7 @@ import Skills from "./Skills";
 import Proyectos from "./Proyectos";
 import Certificados from "./Certificados";
 import git from './../asses/git.svg'
+import video from './../asses/ia.mp4'
 
 function Presentacion () {
     return(
@@ -21,6 +22,9 @@ function Presentacion () {
                 <a href="https://www.linkedin.com/in/erikaladner/" className="boton"><BsLinkedin /></a>
                 <a href="https://github.com/erikalad" className="boton"><BsGithub /></a>
             </div>
+            </div>
+            <div className="video">
+                <video src={video} autoplay muted loop type="video/mp4" controls className="video"></video>
             </div>
             <SobreMi />
             <Skills />
