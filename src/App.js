@@ -7,7 +7,7 @@ import { FloatButton } from 'antd';
 import { QuestionCircleOutlined, SyncOutlined } from '@ant-design/icons';
 import {BsWhatsapp , BsFileEarmarkPdf} from 'react-icons/bs'
 import {GoMail} from 'react-icons/go'
-import cv from './asses/Erika Ladner.pdf'
+import cv from './asses/Erika Ladner - Frontend Developer.pdf'
 
 function App() {
   return (

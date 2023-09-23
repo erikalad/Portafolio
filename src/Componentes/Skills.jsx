@@ -1,6 +1,6 @@
 import React from "react";
 import './Skills.css'
-import { SiTypescript , SiGraphql ,SiMercadopago, SiPaypal, SiNextdotjs, SiFigma ,SiAuth0, SiAntdesign ,SiJavascript, SiCss3, SiHtml5, SiAngular, SiBootstrap,SiTailwindcss, SiSequelize ,SiPostman, SiExpress ,SiReact , SiRedux , SiPostgresql, SiGithub , SiNodedotjs , SiMysql , SiBookstack} from "react-icons/si";
+import { SiTypescript , SiGraphql ,SiMercadopago, SiPython ,SiPaypal, SiNextdotjs, SiFigma ,SiAuth0, SiAntdesign ,SiJavascript, SiCss3, SiHtml5, SiAngular, SiBootstrap,SiTailwindcss, SiSequelize ,SiPostman, SiExpress ,SiReact , SiRedux , SiPostgresql, SiGithub , SiNodedotjs , SiMysql , SiBookstack} from "react-icons/si";
 import { TbBrandReactNative } from "react-icons/tb";
 import { DiNpm } from "react-icons/di";
 function Skills () {
@@ -116,6 +116,11 @@ function Skills () {
             <h6>AUTH0</h6>
             </div>
 
+            <div className="iconos">
+            <h6 className="ico" style={{color:"#000305"}}><SiFigma /></h6>
+            <h6>FIGMA</h6>
+            </div>
+
           {/*   <div className="iconos">
             <h6 className="ico" style={{color:"#c0392b"}}><SiMercadopago/></h6>
             <h6>MERCADOPAGO</h6>
@@ -138,8 +143,8 @@ function Skills () {
             </div>
         
             <div className="iconos">
-            <h6 className="ico" style={{color:"#000305"}}><SiFigma /></h6>
-            <h6>FIGMA</h6>
+            <h6 className="ico" style={{color:"#e1ff00"}}><SiPython /></h6>
+            <h6>PYTHON</h6>
             </div>
            
         

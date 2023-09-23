@@ -1,7 +1,7 @@
 import React from 'react'
 import logo from './../asses/logo.jpg'
 import './NavBar.css'
-import cv from './../asses/Erika Ladner.pdf'
+import cv from './../asses/Erika Ladner - Frontend Developer.pdf'
 
 function Navbar () {
     return (
