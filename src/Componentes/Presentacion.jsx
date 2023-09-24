@@ -3,7 +3,7 @@ import './Presentacion.css'
 import { BsLinkedin , BsGithub } from 'react-icons/bs';
 import { IoRocketSharp } from 'react-icons/io5';
 import SobreMi from "./SobreMi";
-import foto from './../asses/Erika.PNG'
+import foto from './../asses/Erika.png'
 import Skills from "./Skills";
 import Proyectos from "./Proyectos";
 import Certificados from "./Certificados";
