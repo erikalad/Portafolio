@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import "./Proyectos.css";
 import { MdOutlineWbIncandescent, MdOutlineOpenInNew } from "react-icons/md";
 import { SiGithub } from "react-icons/si";
@@ -25,6 +25,50 @@ import { Card, Tag } from "antd";
 const { Meta } = Card;
 
 function Proyectos() {
+  const elementRefs = [
+    useRef(null),
+    useRef(null),
+    useRef(null),
+    useRef(null),
+    useRef(null),
+    useRef(null),
+    useRef(null),
+    useRef(null),
+    useRef(null),
+    useRef(null),
+    useRef(null),
+    useRef(null),
+    useRef(null),
+    useRef(null),
+    useRef(null),
+    useRef(null),
+  ];
+
+  const handleScroll = () => {
+    elementRefs.forEach((elementRef) => {
+      if (elementRef.current) {
+        const elementTop = elementRef.current.getBoundingClientRect().top;
+        const elementBottom = elementRef.current.getBoundingClientRect().bottom;
+
+        const isElementVisible =
+          elementTop < window.innerHeight && elementBottom >= 0;
+
+        if (isElementVisible) {
+          elementRef.current.classList.add("carta");
+        } else {
+          elementRef.current.classList.remove("carta");
+        }
+      }
+    });
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
   return (
     <div className="proyectos" id="proyectos">
       <div>
@@ -34,7 +78,9 @@ function Proyectos() {
         </p>
         <hr />
         <div className="proyectos">
-          <Card
+        <Card
+            ref={elementRefs[0]}
+            className="carta"
             style={{
               width: 200,
             }}
@@ -60,6 +106,8 @@ function Proyectos() {
           </Card>
 
           <Card
+          ref={elementRefs[1]}
+            className="carta"
             style={{
               width: 200,
             }}
@@ -89,6 +137,8 @@ function Proyectos() {
           </Card>
 
           <Card
+          ref={elementRefs[2]}
+            className="carta"
             style={{
               width: 200,
             }}
@@ -125,6 +175,8 @@ function Proyectos() {
           </Card>
 
           <Card
+          ref={elementRefs[3]}
+            className="carta"
             style={{
               width: 200,
             }}
@@ -150,6 +202,8 @@ function Proyectos() {
           </Card>
 
           <Card
+          ref={elementRefs[4]}
+            className="carta"
             style={{
               width: 200,
             }}
@@ -176,6 +230,8 @@ function Proyectos() {
           </Card>
 
           <Card
+          ref={elementRefs[5]}
+            className="carta"
             style={{
               width: 200,
             }}
@@ -201,6 +257,8 @@ function Proyectos() {
           </Card>
 
           <Card
+          ref={elementRefs[6]}
+            className="carta"
             style={{
               width: 200,
             }}
@@ -242,7 +300,9 @@ function Proyectos() {
 						/>
 					</Card> */}
 
-          <Card
+<Card
+ref={elementRefs[7]}
+            className="carta"
             style={{
               width: 200,
             }}
@@ -280,6 +340,8 @@ function Proyectos() {
           </Card>
 
           <Card
+          ref={elementRefs[8]}
+            className="carta"
             style={{
               width: 200,
             }}
@@ -325,7 +387,9 @@ function Proyectos() {
 						/>
 					</Card> */}
 
-          <Card
+<Card
+ref={elementRefs[9]}
+            className="carta"
             style={{
               width: 200,
             }}
@@ -379,6 +443,8 @@ function Proyectos() {
 					</Card> */}
 
           <Card
+          ref={elementRefs[10]}
+          className="carta"
             style={{
               width: 200,
             }}
@@ -406,6 +472,8 @@ function Proyectos() {
           </Card>
 
           <Card
+          ref={elementRefs[11]}
+            className="carta"
             style={{
               width: 200,
             }}
@@ -431,6 +499,8 @@ function Proyectos() {
           </Card>
 
           <Card
+          ref={elementRefs[12]}
+            className="carta"
             style={{
               width: 200,
             }}
@@ -456,6 +526,8 @@ function Proyectos() {
           </Card>
 
           <Card
+          ref={elementRefs[13]}
+            className="carta"
             style={{
               width: 200,
             }}
@@ -487,6 +559,8 @@ function Proyectos() {
           </Card>
 
           <Card
+          ref={elementRefs[14]}
+            className="carta"
             style={{
               width: 200,
             }}
@@ -516,6 +590,8 @@ function Proyectos() {
           </Card>
 
           <Card
+          ref={elementRefs[15]}
+            className="carta"
             style={{
               width: 200,
             }}
