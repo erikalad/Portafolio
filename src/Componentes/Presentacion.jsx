@@ -9,18 +9,19 @@ import Proyectos from "./Proyectos";
 import Certificados from "./Certificados";
 import git from './../asses/git.svg'
 import video from './../asses/ia.mp4'
+import { Tooltip } from "antd";
 
 function Presentacion () {
     return(
         <div className="cuerpo container container-lg container-md container-sm" id="Inicio">
             <img src={foto} className="foto" alt="Erika Ladner"/>
             <div className="Inicio">
-            <p className="intro"><IoRocketSharp />BIENVENIDOS A MI PORTAFOLIO</p>
+            <p className="intro"><IoRocketSharp /> BIENVENIDOS A MI PORTAFOLIO</p>
             <h1 className="titulo">ERIKA LADNER</h1>
             <h4 className="titulo">Front End Developer</h4>
             <div className="botones">
-                <a href="https://www.linkedin.com/in/erikaladner/" className="boton"><BsLinkedin /></a>
-                <a href="https://github.com/erikalad" className="boton"><BsGithub /></a>
+                <Tooltip title="Abrir LinkedIn"><a href="https://www.linkedin.com/in/erikaladner/" className="boton" target="_blank"><BsLinkedin /></a></Tooltip>
+                <Tooltip title="Abrir Github"><a href="https://github.com/erikalad" className="boton" target="_blank"><BsGithub /></a></Tooltip>
             </div>
             </div>
             <div className="video">

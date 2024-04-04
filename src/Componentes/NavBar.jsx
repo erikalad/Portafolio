@@ -1,13 +1,11 @@
 import React from 'react'
 import logo from './../asses/logo.jpg'
 import './NavBar.css'
-import cv from './../asses/Erika Ladner - Frontend Developer.pdf'
 
 function Navbar () {
     return (
         <div className='nav navbar navbar-expand-lg bg-dark sticky-top bg-ligth fixed-top' id="nav">
                 <div className="container-fluid">
-                    <img src={logo} alt="logo" id="img" className="navbar-brand"/>
                     <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" style={{backgroundColor:'white'}}>
                     <span className="navbar-toggler-icon"></span>
                     </button>
@@ -19,23 +17,21 @@ function Navbar () {
                     <div className="offcanvas-body">
                         <ul className="navbar-nav justify-content-end flex-grow-1 pe-3 navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style={{marginTop: "7px"}}>
                         <li className="nav-item">
-                        <a href="#Inicio" aria-current="page" className='nav-link active' >INICIO</a>
+                        <a href="#Inicio" aria-current="page" className='nav-link active' >Inicio</a>
                         </li>
                         <li>
-                        <a href="#sobre-mi" aria-current="page" className='nav-link active'>SOBRE MI</a>
+                        <a href="#sobre-mi" aria-current="page" className='nav-link active'>Sobre Mi</a>
                         </li>
                         <li>
-                        <a href="#skills" aria-current="page" className='nav-link active' >SKILLS</a>
+                        <a href="#skills" aria-current="page" className='nav-link active' >Skills</a>
                         </li>
                         <li>
-                        <a href="#proyectos" aria-current="page" className='nav-link active' >PROYECTOS</a>
+                        <a href="#proyectos" aria-current="page" className='nav-link active' >Proyectos</a>
                         </li>
                         <li>
-                        <a href="#certificados" aria-current="page" className='nav-link active' >CERTIFICADOS</a>
+                        <a href="#certificados" aria-current="page" className='nav-link active' >Certificados</a>
                         </li>
                         </ul>
-                      {/*   <a href={cv} download={cv} id="boton1" className="btn btn-light">DESCARGAR CURRÍCULUM</a>
-                        <a href="https://wa.me/qr/Q2YIOQL7UXOPH1" id="boton2" className="btn btn-light">CONTACTAME</a> */}
                      </div>
                     </div>
                 </div>
